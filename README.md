@@ -32,7 +32,7 @@ Our code is compatible with both CPU and GPU, however to replicate our GPU resul
 We provide the Matlab code in [``MatlabSolver/``](MatlabSolver/) to generate the dataset for linear and nonlinear Poisson equations, and the heat equation.
 
 ### Poisson equation
-To generate the datset for the Poisson equation, please use the [``GenSCAIMats.m``](MatlabSolver/GenSCAIMats.m) file. Inside it, change the ``nonlinear`` variable value to 0 for linear and 1 for nonlinear. Running this file automatically makes the corresponding ``scai/`` (or ``nonlinear`` in case of nonlinear Poisson) dataset folder.
+To generate the datset for the Poisson equation, please use the [``GenSCAIMats.m``](MatlabSolver/GenSCAIMats.m) file. Inside it, change the ``nonlinear`` variable value to 0 for linear and 1 for nonlinear. Running this file automatically makes the corresponding ``scai/`` (or ``nonlinear/`` in case of nonlinear Poisson) dataset folder.
 
 ### Heat equation
 For the heat equation, use the [``GenerateVectorsTimeDependent.m``](MatlabSolver/GenerateVectorsTimeDependent.m) file. This file will add the three heat equation relevant vectors; ``u_heat.mat``, ``f_heat.mat``, and ``g_heat.mat`` in the dataset folder in all subfolders for size 828.
