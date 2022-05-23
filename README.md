@@ -45,7 +45,7 @@ We provide the Python code in [``src/``](src/) for vanilla-PINN and DT-PINN for 
 3. [``dtpinn_cupy_fp64_nonlinear.py``](src/dtpinn_cupy_fp64_nonlinear.py): Corresponds fo fp64 DT-PINN for nonlinear Poisson equation.
 4. [``heat_dtpinn_cupy.py``](src/heat_dtpinn_cupy.py): Corresponds fo fp64 DT-PINN for the heat equation.
 
-The vanilla-PINN code files [``vanilla.py``](src/vanilla.py), [``vanilla_nonlinear.py``](src/vanilla_nonlinear.py), and[``vanilla_heat.py``](src/vanilla_heat.py)correspond to the linear and nonlinear Poisson equations, and heat equation respectively.
+The vanilla-PINN code files [``vanilla.py``](src/vanilla.py), [``vanilla_nonlinear.py``](src/vanilla_nonlinear.py), and [``vanilla_heat.py``](src/vanilla_heat.py) correspond to the linear and nonlinear Poisson equations, and heat equation respectively.
 
 For all PINN code, one can change the learning rate, floating point precision, training set size, order of differentiation (for DT-PINN), network depth, and activation function directly in the code files. The code contains the hyperparameters we have used throughout our experiments. The files automatically save the results in a descriptive folder name that can later be used for making plots.
 
