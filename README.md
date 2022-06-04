@@ -56,7 +56,7 @@ Lastly, we also share a script [``plotting.py``](src/plotting.py) for making the
 This repository is part of the following paper. Please cite the following paper if you would like to cite this repository and find its contents useful:
 
 ```text
-@article{sharma2022acceleratingpinn,
+@article{SharmaShankar2022acceleratingpinn,
   title={Accelerated Training of Physics Informed Neural Networks (PINNs) using Meshless Discretizations},
   author = {Sharma, Ramansh and Shankar, Varun},
   url = {https://arxiv.org/abs/2205.09332},
