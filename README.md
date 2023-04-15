@@ -57,8 +57,11 @@ This repository is part of the following paper. Please cite the following paper 
 
 ```text
 @article{SharmaShankar2022acceleratingpinn,
-  title={Accelerated Training of Physics Informed Neural Networks (PINNs) using Meshless Discretizations},
+  title = {Accelerated Training of Physics Informed Neural Networks (PINNs) using Meshless Discretizations},
   author = {Sharma, Ramansh and Shankar, Varun},
-  url = {https://arxiv.org/abs/2205.09332},
-  year={2022}
+  journal = {Advances in Neural Information Processing Systems},
+  arxiv = {https://arxiv.org/abs/2205.09332},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/0764db1151b936aca59249e2c1386101-Abstract-Conference.html},
+  volume = {35},
+  year = {2022}
 }
